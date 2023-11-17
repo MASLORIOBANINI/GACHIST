@@ -1,0 +1,129 @@
+1
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	cout << "введите число" << endl;
+	int n;
+	cin >> n;
+	int t = 0;
+	cout << n << "в квадрате ";
+	cout << n * n << endl;
+	cout << n << "в кубе ";
+	n / n;
+	cout << n * n * n << endl;
+}
+
+
+2
+
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+
+/*среднее арифм двух числ*/
+
+int main() {
+	double a, b;
+	cout << " first number:";
+	cin >> a;
+	cout << "second number:";
+	cin >> b;
+	cout << "average:" << ((a + b) / 2.0) << endl;
+}
+
+
+3
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int sum = 0;
+	cout << "введите нач диапазона" << endl;
+	int n;
+	cin >> n;
+	cout << "введите конец диапазона" << endl;
+	int t;
+	cin >> t;
+	cout << "" << endl;
+	for (int i = n; i <= t; i++) {
+		if (i % 2 == 0)
+			sum += i;
+	}
+
+	cout << "результат" << sum;
+}
+
+
+
+
+
+
+4 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int n1 = 0, n2 = 1;
+	int n;
+	int i = 0;
+	do
+	{
+		cout << n1 << "";
+		n = n1 + n2;
+		n1 = n2;
+		n2 = n;
+		i++;
+
+	} while (i < 10);
+	cout << endl;
+	return 0;
+}
+5  
+
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int n1 = 0, n2 = 1;
+	int n;
+	int i = 0;
+	do
+	{
+		cout << n1 << "";
+		n = n1 + n2;
+		n1 = n2;
+		n2 = n;
+		i++;
+	} while (i < 10);
+	cout << endl;
+	return 0;
+}
+
+6
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	cout << "введите число" << endl;
+	int n;
+	cin >> n;
+	cout << "делители числа" << "" << n << ":S" << "";
+	for (int i = 1; i <= n; ++i) {
+		if (n % i == 0) { cout << i << ", ";
+		}
+	}
+	cout << endl;
+	return 0;
+}
